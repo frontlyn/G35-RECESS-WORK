@@ -53,11 +53,7 @@
                         <a href="{{ url('/admin/pupil') }}" title="Back"><button class="button2"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
                         <a href="{{ url('/admin/pupil/' . $pupil->id . '/edit') }}" title="Edit pupil"><button class="button1"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
 
-                        <form method="POST" action="{{ url('admin/pupil' . '/' . $pupil->id) }}" accept-charset="UTF-8" style="display:inline">
-                            {{ method_field('DELETE') }}
-                            {{ csrf_field() }}
-                            <button type="submit" class="button3" title="Delete pupil" onclick="return confirm(&quot;Confirm delete?&quot;)"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</button>
-                        </form>
+                        
                         <br/>
                         <br/>
 
