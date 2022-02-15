@@ -14,6 +14,15 @@ use App\Http\Controllers\PupilsController;
 |
 */
 
+//Directing to details
+Route::get('total_pupils', [PupilsController::class, 'index'])->name('index');
+Route::get('active_pupils', [PupilsController::class, 'index'])->name('index');
+Route::get('deactive_pupils', [PupilsController::class, 'index'])->name('index');
+Route::get('/total_assignments', 'App\Http\Controllers\AssignmentsController@index');
+Route::get('/due_assignments', 'App\Http\Controllers\AssignmentsController@index');
+Route::get('/overdue_assignments', 'App\Http\Controllers\AssignmentsController@index');
+
+
 
 Route::get('register', [AuthController::class, 'registerForm'])->name('registerForm');//
 Route::post('register', [AuthController::class, 'register'])->name('auth.register');

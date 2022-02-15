@@ -181,7 +181,7 @@ background-size: 1920px 1024px;">
                                     <div class="col-md-10">
                                         <p class="text-inverse text-left m-b-0">Thank you.</p>
                                         <p class="text-inverse text-left"><a href="{{ route('loginForm') }}"><b>I have
-                                                    an account alrady</b></a></p>
+                                                    an account already</b></a></p>
                                     </div>
                                     <div class="col-md-2">
                                         {{-- <img src="../files/assets/images/auth/Logo-small-bottom.png" alt="small-logo.png"> --}}

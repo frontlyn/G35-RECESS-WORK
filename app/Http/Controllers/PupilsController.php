@@ -133,4 +133,18 @@ class PupilsController extends Controller
 
         return redirect('admin/pupil')->with('flash_message', 'Pupil deleted!');
     }
+    //linking to details of pupils
+    public function total_pupils()
+    {
+        return views('admin.pupils.index');
+    }
+    public function active_pupils()
+    {
+        return views('admin.pupils.index');
+    }
+    public function deactive_pupils()
+    {
+        return views('admin.pupils.index');
+    }
+
 }

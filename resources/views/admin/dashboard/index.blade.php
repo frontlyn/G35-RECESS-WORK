@@ -5,7 +5,8 @@
     <div class="container-fluid">
     <div class="row mb-5">
         <div class="col-md-6 col-lg-3 col-xlg-3">
-            <div class="card card-hover">
+        <a href="/total_pupils" >
+        <div class="card card-hover">
                 <div class="box text-center" style="background-color:blue">
                 <h1 class="font-light text-light">
                 <i class="mdi mdi-account"></i>
@@ -16,8 +17,11 @@
                     <h6 class="text-white">Total Pupils</h6>
                 </div>
             </div>
+        </a>
         </div>
+
         <div class="col-md-6 col-lg-6 col-xlg-3">
+            <a href="/active_pupils">
             <div class="card card-hover">
                 <div class="box text-center" style="background-color:blue">
                 <h1 class="font-light text-light">
@@ -29,8 +33,11 @@
                     <h6 class="text-white">Active Pupils</h6>
                 </div>
             </div>
+            </a>
         </div>
+
         <div class="col-md-6 col-lg-3 col-xlg-3">
+            <a href="/deactive_pupils">
             <div class="card card-hover">
                 <div class="box text-center" style="background-color:blue">
                 <h1 class="font-light text-light">
@@ -39,13 +46,15 @@
                     <p class="font-light text-white">
                         {{ $deactivePupils }}
 </p>
-                    <h6 class="text-white">Deactivated Pupils</h6>
+                    <h6 class="text-white">Deactive Pupils</h6>
                 </div>
             </div>
+            </a>
         </div>
         </div>
         <div class="row">
         <div class="col-md-6 col-lg-3 col-xlg-3">
+            <a href="/total_assignments">
             <div class="card card-hover">
                 <div class="box text-center" style="background-color:blue">
                 <h1 class="font-light text-light">
@@ -57,8 +66,10 @@
                     <h6 class="text-white">Total Assignments</h6>
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-md-6 col-lg-6 col-xlg-3">
+            <a href="/due_assignments">
             <div class="card card-hover">
                 <div class="box text-center" style="background-color:blue">
                 <h1 class="font-light text-light">
@@ -70,8 +81,10 @@
                     <h6 class="text-white">Due Assignments</h6>
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-md-6 col-lg-3 col-xlg-3">
+            <a href="/overdue_assignments">
             <div class="card card-hover">
                 <div class="box text-center" style="background-color:blue">
                 <h1 class="font-light text-light">
@@ -83,6 +96,7 @@
                     <h6 class="text-white">Over Due</h6>
                 </div>
             </div>
+            </a>
         </div>
         </div>
     </div>

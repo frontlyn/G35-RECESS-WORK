@@ -47,7 +47,7 @@
     <div class="row">
       <div class="col-sm-12">
                 <div class="card">
-                    <div class="card-header bg-primary text-light">Edit pupil #{{ $pupil->id }}</div>
+                    <div class="card-header bg-primary text-light">Edit pupil {{ $pupil->id }}</div>
                     <div class="card-body">
                         <a href="{{ url('/admin/pupil') }}" title="Back"><button class="button2"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
                         <br />

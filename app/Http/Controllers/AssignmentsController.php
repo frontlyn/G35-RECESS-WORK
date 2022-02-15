@@ -121,4 +121,16 @@ class AssignmentsController extends Controller
 
         return redirect('admin/assignment')->with('flash_message', 'Assignment deleted!');
     }
+    public function total_assignments()
+    {
+        return views('admin.assignments.index');
+    }
+    public function due_assignments()
+    {
+        return views('admin.assignments.show');
+    }
+    public function overdue_assignments()
+    {
+        return views('admin.assignments.show');
+    }
 }
