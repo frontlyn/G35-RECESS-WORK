@@ -1142,7 +1142,7 @@ MYSQL *con = mysql_init(NULL);
   {
       finish_with_error(con);
   }
-  char sql[300] = "SELECT * FROM assignments WHERE start_date BETWEEN '";
+  char sql[300] = "SELECT * FROM assignments WHERE start_time BETWEEN '";
   strcat(sql,date_from);
   strcat(sql,"' ");
   strcat(sql,"AND ");
